@@ -13,7 +13,7 @@ For Hyper-V Generation 2 VMs only.
 To download all scripts into your `$env:temp` folder:
 
 ```powershell
-iex (iwr 'bit.ly/h-v-a')
+Invoke-Expression (Invoke-WebRequest 'https://raw.githubusercontent.com/ionise/Hyper-V-Automation/master/bootstrap.ps1')
 ```
 
 
